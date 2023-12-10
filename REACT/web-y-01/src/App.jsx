@@ -1,3 +1,4 @@
+import HeroSection from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <>
       <div>
         <Navbar />
+        <HeroSection />
       </div>
     </>
   );
