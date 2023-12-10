@@ -24,7 +24,7 @@ const DetailsFood = () => {
         Top Rated Menu Items
       </h1>
       {/* Filter Section */}
-      <div className="flex flex-col lg:flex-row justify-between">
+      <div className="flex flex-col mt-3 lg:flex-row justify-between">
         {/* Filter Type */}
         <div>
           <p className="font-bold text-gray-700 text-xl">Filter Type</p>
