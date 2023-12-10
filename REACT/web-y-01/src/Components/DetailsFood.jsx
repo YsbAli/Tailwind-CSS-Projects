@@ -18,25 +18,24 @@ const DetailsFood = () => {
       })
     );
   };
-
   return (
     <div className="max-w-[1640px] m-auto px-4 py-10">
       <h1 className="text-orange-600 bg-red-200 py-3 font-bold text-4xl text-center">
         Top Rated Menu Items
       </h1>
-
       {/* Filter Section */}
       <div className="flex flex-col lg:flex-row justify-between">
         {/* Filter Type */}
         <div>
           <p className="font-bold text-gray-700 text-xl">Filter Type</p>
-          <div className="flex flex-wrap justify-between gap-3 mt-3">
+          <div className="flex flex-wrap justify-between gap-3 mt-3 active:text-orange-800">
             <button
               onClick={() => setFoodData(data)}
-              className="border-orange-600 text-orange-500 hover:bg-orange-600 hover:text-white"
+              className="border-orange-600 text-orange-500 active:bg-orange-700 hover:bg-orange-600 hover:text-white"
             >
               All
             </button>
+
             <button
               onClick={() => FilterType("burger")}
               className="border-orange-600 text-orange-500 hover:bg-orange-600 hover:text-white"
