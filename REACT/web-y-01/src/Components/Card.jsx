@@ -2,11 +2,11 @@ import React from "react";
 
 const Card = ({ title, text, img }) => {
   return (
-    <div className="max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
+    <div className="max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6 ">
       {/* Card */}
-      <div className="rounded-xl relative">
+      <div className="rounded-xl relative ">
         {/* Overlay */}
-        <div className="absolute text-white w-full h-full bg-black/50 rounded-xl">
+        <div className="absolute text-white w-full h-full bg-black/50 rounded-xl ">
           <p className="font-bold text-2xl px-2 pt-2">Best Food Of India</p>
           {/* <p className="font-bold text-2xl px-2 pt-2">{title}</p> */}
           <p className="px-2">Don't be late</p>
