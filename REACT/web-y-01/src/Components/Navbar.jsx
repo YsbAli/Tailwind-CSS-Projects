@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="cursor-pointer">
             <AiOutlineMenu onClick={() => HandleNav(showNav)} size={30} />
           </div>
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2 ">
+          <h1 className="text-2xl sm:text-[10px] md:text-2xl lg:text-4xl px-3">
             Best <span className="font-bold">Eats</span>
           </h1>
           <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px] cursor-pointer">
