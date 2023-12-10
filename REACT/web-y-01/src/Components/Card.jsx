@@ -48,7 +48,8 @@ const Card = ({ title, text, img }) => {
           <button className="border-white bg-white font-bold text-black mx-2 absolute bottom-4 transition-scale hover:scale-110 duration-150">
             Order Now
           </button>
-        </div>+
+        </div>
+        +
         <img
           className="max-h-[160px] md:max-h-[250px] w-full object-cover rounded-xl"
           src="https://images.pexels.com/photos/936611/pexels-photo-936611.jpeg?auto=compress&cs=tinysrgb&w=600"
