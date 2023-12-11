@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real State Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favIcon.png" type="image/x-icon" />
+
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .heading {
+        font-size: 18px;
+        color: rgb(255, 219, 219);
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      header {
+        background-color: #2478ee;
+        color: white;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      nav li {
+        margin-right: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <h1 class="heading"><a href="#">Real State</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Header Section  -->
+    <section class="py-24 sm:py-16 md:py-20 lg:py-24">
+      <div class="container mx-auto px-4 sm:px-8">
+        <div
+          class="flex flex-col items-center justify-between space-y-8 md:space-y-0 md:flex-row"
+        >
+          <!-- Left About Hannah's Section -->
+          <div class="md:w-1/2 order-2 md:order-1">
+            <h1 class="text-4xl sm:text-5xl font-bold leading-tight mb-8">
+              I'm <span class="text-red-400">Hannah Elmore</span>
+            </h1>
+            <p class="text-lg max-w-md">
+              <span class="text-2xl t">Hey,</span>Welcome to the world of real
+              estate, where dreams find their homes and investments flourish.
+              I'm Hannah Elmore, your dedicated guide in the realm of property
+              transactions and opportunities. With a passion for real estate and
+              a commitment to excellence, I bring a wealth of experience and a
+              personalized touch to every client interaction. As a seasoned real
+              estate businesswoman, I have spent years honing my skills and
+              building a reputation for delivering results. My journey in the
+              industry has been marked by a deep understanding of the market, a
+              keen eye for opportunities, and a commitment to integrity in every
+              transaction.
+            </p>
+            <a
+              id="btn"
+              href="#"
+              class="mt-8 inline-block px-6 py-3 text-white bg-blue-500 hover:bg-blue-700 rounded"
+              >About Me</a
+            >
+          </div>
+
+          <!--  image Section -->
+          <div class="md:w-1/2 order-1 md:order-2">
+            <img
+              src="img2.webp"
+              alt="Hero Image"
+              class="object-cover h-full rounded shadow-lg w-full max-w-xl sm:max-w-none"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    const Button = document.getElementById("btn");
+
+    Button.addEventListener("click", () => {
+      alert("About Hannah");
+    });
+  </script>
+</html>
